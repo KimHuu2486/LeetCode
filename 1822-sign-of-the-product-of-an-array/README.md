@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/sign-of-the-product-of-an-array/?envType=study-plan-v2&envId=programming-skills">1822. Sign of the Product of an Array</a></h2><h3>Easy</h3><hr><p>Implement a function <code>signFunc(x)</code> that returns:</p>
+<h2><a href="https://leetcode.com/problems/sign-of-the-product-of-an-array/description/?envType=study-plan-v2&envId=programming-skills">1822. Sign of the Product of an Array</a></h2><h3>Easy</h3><hr><p>Implement a function <code>signFunc(x)</code> that returns:</p>
 
 <ul>
 	<li><code>1</code> if <code>x</code> is positive.</li>
