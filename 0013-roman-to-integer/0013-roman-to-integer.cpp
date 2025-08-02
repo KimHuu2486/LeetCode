@@ -1,4 +1,3 @@
-#include <map>
 class Solution {
 public:
     int romanToInt(string s) {
@@ -10,22 +9,12 @@ public:
         mp['C'] = 100;
         mp['D'] = 500;
         mp['M'] = 1000; 
-        int result = 0;
-        for (int i = s.size() - 1; i>=0; i-- )
-        {
-            if (i == s.size())
-            {
-                result += mp[s[i]];
-            }
+        int result = mp[s.back()];
+        for (int i = s.size() - 2; i >= 0; i--) {
+            if (mp[s[i]] < mp[s[i + 1]])
+                result -= mp[s[i]];
             else
-            {
-                if (mp[s[i]]<mp[s[i+1]]){
-                    result-=mp[s[i]];
-                }
-                else {
-                    result += mp[s[i]];
-                }
-            }
+                result += mp[s[i]];
         }
         return result;
     }
