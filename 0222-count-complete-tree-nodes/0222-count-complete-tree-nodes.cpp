@@ -6,21 +6,29 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
 public:
-    void LNR(TreeNode* root, vector<int>&vec){
-        if (root){
-            LNR(root->left, vec);
-            vec.push_back(root->val);
-            LNR(root->right, vec);
+    int height(TreeNode* root) {
+        int cnt = 0;
+        while (root) {
+            cnt++;
+            root = root->left;
         }
+        return cnt;
     }
     int countNodes(TreeNode* root) {
-        vector<int>vec;
-        LNR(root, vec);
-        return vec.size();
+        if (!root)
+            return 0;
+        int hl = height(root->left);
+        int hr = height(root->right);
+        if (hl == hr) {
+            return (1 << hl) + countNodes(root->right);
+        } else {
+            return (1 << hr) + countNodes(root->left);
+        }
     }
 };
