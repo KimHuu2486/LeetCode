@@ -1,27 +1,20 @@
 class Solution {
 public:
-    void backtracking(vector<vector<int>>&ans, vector<int>&nums){
-        int i = nums.size()-2;
-        while(i>=0&& nums[i]>nums[i+1]){
-            i--;
-        }
-        if (i<0){
+    void recurPermutation(int idx, vector<vector<int>>& ans,
+                          vector<int>& nums) {
+        if (idx == nums.size()) {
+            ans.push_back(nums);
             return;
         }
-        int j = nums.size()-1;
-        while(nums[i]>nums[j]){
-            j--;
+        for (int i = idx; i < nums.size(); i++) {
+            swap(nums[i], nums[idx]);
+            recurPermutation(idx + 1, ans, nums);
+            swap(nums[i], nums[idx]);
         }
-        swap(nums[i], nums[j]);
-        sort(nums.begin()+i+1, nums.end());
-        ans.push_back(nums);
-        backtracking(ans, nums);
     }
     vector<vector<int>> permute(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
-        vector<vector<int>>ans;
-        ans.push_back(nums);
-        backtracking(ans, nums);
+        vector<vector<int>> ans;
+        recurPermutation(0, ans, nums);
         return ans;
     }
 };
