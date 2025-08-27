@@ -1,7 +1,7 @@
 class Solution {
 public:
-    void solve(vector<vector<string>>& ans, vector<string> res,
-               vector<int> main, vector<int> anti, vector<int> col, int i,
+    void solve(vector<vector<string>>& ans, vector<string>& res,
+               vector<int>& main, vector<int>& anti, vector<int>& col, int i,
                int n) {
         if (i == n) {
             ans.push_back(res);
