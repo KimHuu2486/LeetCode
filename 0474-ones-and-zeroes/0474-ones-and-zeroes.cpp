@@ -2,7 +2,7 @@ class Solution {
 public:
     int cnt0(const string& s) {
         int cnt = 0;
-        for (char c : s) {
+        for (const char& c : s) {
             if (c == '0')
                 cnt++;
         }
