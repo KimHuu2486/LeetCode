@@ -1,63 +1,78 @@
 class Solution {
 private:
     vector<int> parent;
+    vector<int> rnk;
     int _n;
 
-    void makeSet() {
-        for (int i = 0; i < _n; i++) {
-            parent[i] = i;
-        }
-    }
     int find(int v) {
-        if (v == parent[v]) {
-            return v;
+        while (v != parent[v]) {
+            parent[v] = parent[parent[v]];
+            v = parent[v];
         }
-        return parent[v] = find(parent[v]);
+        return v;
     }
-    void Union(int a, int b) {
+    void unite(int a, int b) {
         a = find(a);
         b = find(b);
-        if (a != b) {
-            if (a == 0) {
-                parent[b] = a;
-            } else
-                parent[a] = b;
+        if (a == b)
+            return;
+
+        if (a == 0 || b == 0) {
+            parent[a] = 0;
+            parent[b] = 0;
+            return;
         }
+
+        if (rnk[a] < rnk[b])
+            swap(a, b);
+        parent[b] = a;
+        if (rnk[a] == rnk[b])
+            rnk[a]++;
     }
 
 public:
     vector<int> findAllPeople(int n, vector<vector<int>>& meetings,
                               int firstPerson) {
-        _n = n;
         parent.resize(n);
-        makeSet();
-        Union(0, firstPerson);
+        rnk.assign(n, 0);
+        for (int i = 0; i < n; i++)
+            parent[i] = i;
+
+        unite(0, firstPerson);
 
         sort(meetings.begin(), meetings.end(),
-             [](auto& a, auto& b) { return a[2] < b[2]; });
+             [](const auto& a, const auto& b) { return a[2] < b[2]; });
 
         int m = meetings.size();
         int left = 0;
 
         while (left < m) {
             int t = meetings[left][2];
+
             int right = left;
+            while (right < m && meetings[right][2] == t)
+                right++;
 
             vector<int> participants;
-            participants.reserve(2 * (m - left));
+            participants.reserve(2 * (right - left));
 
-            while (right < m && meetings[right][2] == t) {
-                int x = meetings[right][0];
-                int y = meetings[right][1];
-                Union(x, y);
+            for (int i = left; i < right; i++) {
+                int x = meetings[i][0];
+                int y = meetings[i][1];
+                unite(x, y);
                 participants.push_back(x);
                 participants.push_back(y);
-                right++;
             }
 
+            sort(participants.begin(), participants.end());
+            participants.erase(unique(participants.begin(), participants.end()),
+                               participants.end());
+
             for (int p : participants) {
-                if (find(p) != 0)
+                if (find(p) != 0) {
                     parent[p] = p;
+                    rnk[p] = 0;
+                }
             }
 
             left = right;
