@@ -1,27 +1,19 @@
 class Solution {
 public:
     int minimumDeletions(string s) {
-        int prevb = 0, nexta = 0;
-        int n = s.size();
+        int bCount = 0;    
+        int deletions = 0;  
 
-        for (int i = 0; i < n; i++) {
-            if (s[i] == 'a') {
-                nexta++;
+        for(char c : s) {
+            if(c == 'b') {
+                bCount++;
+            } else { 
+                if(bCount > 0) {
+                    deletions++;
+                    bCount--;
+                }
             }
         }
-
-        int ans = INT_MAX;
-        for (int i = 0; i < n; i++) {
-            if (s[i] == 'a') {
-                nexta--;
-                ans = min(ans, nexta + prevb);
-            }
-            else {
-                ans = min(ans, nexta + prevb);
-                prevb++;
-            }
-        }
-
-        return ans;
+        return deletions;
     }
 };
