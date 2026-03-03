@@ -1,25 +1,16 @@
 class Solution {
 public:
     char findKthBit(int n, int k) {
-        string cur = "0";
+        if (n == 1) return '0';
 
-        for (int i = 2; i <= n; i++) {
-            string next = cur;
-            next.push_back('1');
+        int length = (1 << n) - 1;
 
-            int m = cur.size();
-            for (int j = 0; j < m / 2; j++) {
-                if (cur[j] == cur[m - 1 - j]) {
-                    cur[j] = cur[m - 1 - j] = '1' - cur[j] + '0';
-                }
-            }
-            cur[m / 2] = '1' - cur[m / 2] + '0';
+        int mid = length / 2 + 1;
 
-            next.append(cur);
+        if (mid == k) return '1';
+        
+        if (k < mid) return findKthBit(n - 1, k);
 
-            cur = next;
-        }
-
-        return cur[k - 1];
+        return '1' - findKthBit(n - 1, length - k + 1) + '0';
     }
 };
