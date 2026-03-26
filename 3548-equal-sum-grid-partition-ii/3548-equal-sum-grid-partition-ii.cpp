@@ -1,105 +1,86 @@
-
 class Solution {
-private:
-    static const int M = 1e5 + 1;
-    bitset<M> tSeen, bSeen, lSeen, rSeen;
-
 public:
     bool canPartitionGrid(vector<vector<int>>& grid) {
-        const int r = grid.size(), c = grid[0].size();
-        long long Tsum = 0;
+        int m = grid.size();
+        int n = grid[0].size();
+        long long total = 0;
+        unordered_map<int, int> mpTotal, mpTop, mpLeft;
 
-        tSeen.reset();
-        bSeen.reset();
-        lSeen.reset();
-        rSeen.reset();
-        int xMax = 0;
-        for (auto& row : grid) {
-            for (int x : row) {
-                Tsum += x;
-                xMax = max(x, xMax);
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                total += grid[i][j];
+                mpTotal[grid[i][j]]++;
             }
         }
 
-        // Horizontal Cuts
-        long long top = 0;
-        // First pass for Top removals
-        for (int i = 0; i < r - 1; i++) {
-            for (int x : grid[i]) {
-                top += x;
-                tSeen[x] = 1;
+        long long s1 = 0;
+        for (int i = 0; i < m - 1; i++) {
+            for (int j = 0; j < n; j++) {
+                s1 += grid[i][j];
+                mpTop[grid[i][j]]++;
             }
-            long long bot = Tsum - top;
-            if (top == bot)
-                return 1;
+            long long s2 = total - s1;
+            if (s1 == s2)
+                return true;
 
-            long long d = top - bot;
-            if (d > 0 && d <= xMax) {
-                if (i > 0 && c > 1) {
-                    if (tSeen[d])
-                        return 1;
-                } else if (grid[0][0] == d || grid[i][c - 1] == d)
-                    return 1;
+            long long x1 = s1 - s2;
+            if (x1 > 0 && x1 <= 1000000 && mpTop[x1] > 0) {
+                if (isValid(grid, (int)x1, 0, i, 0, n - 1))
+                    return true;
+            }
+
+            long long x2 = s2 - s1;
+            if (x2 > 0 && x2 <= 1000000 && (mpTotal[x2] - mpTop[x2] > 0)) {
+                if (isValid(grid, (int)x2, i + 1, m - 1, 0, n - 1))
+                    return true;
             }
         }
 
-        long long bot = 0;
-        // Second pass for Bottom removals
-        for (int i = r - 1; i >= 1; i--) {
-            for (int x : grid[i]) {
-                bot += x;
-                bSeen[x] = 1;
+        s1 = 0;
+        for (int j = 0; j < n - 1; j++) {
+            for (int i = 0; i < m; i++) {
+                s1 += grid[i][j];
+                mpLeft[grid[i][j]]++;
             }
-            long long topS = Tsum - bot;
-            long long d = bot - topS;
-            if (d > 0 && d <= xMax) {
-                if ((r - 1 - i) > 0 && c > 1) {
-                    if (bSeen[d])
-                        return 1;
-                } else if (grid[i][0] == d || grid[r - 1][c - 1] == d)
-                    return 1;
+            long long s2 = total - s1;
+            if (s1 == s2)
+                return true;
+
+            long long x1 = s1 - s2;
+            if (x1 > 0 && x1 <= 1000000 && mpLeft[x1] > 0) {
+                if (isValid(grid, (int)x1, 0, m - 1, 0, j))
+                    return true;
+            }
+            long long x2 = s2 - s1;
+            if (x2 > 0 && x2 <= 1000000 && (mpTotal[x2] - mpLeft[x2] > 0)) {
+                if (isValid(grid, (int)x2, 0, m - 1, j + 1, n - 1))
+                    return true;
             }
         }
+        return false;
+    }
 
-        // Vertical Cuts
-        long long left = 0;
-        for (int j = 0; j < c - 1; j++) {
-            for (int i = 0; i < r; i++) {
-                int x = grid[i][j];
-                left += x;
-                lSeen[x] = 1;
-            }
-            long long right = Tsum - left;
-            if (left == right)
-                return 1;
+private:
+    bool isValid(const vector<vector<int>>& grid, int x, int r1, int r2, int c1,
+                 int c2) {
+        int r = r2 - r1 + 1;
+        int c = c2 - c1 + 1;
 
-            long long d = left - right;
-            if (d > 0 && d <= xMax) {
-                if (r > 1 && j > 0) {
-                    if (lSeen[d])
-                        return 1;
-                } else if (grid[0][0] == d || grid[r - 1][j] == d)
-                    return 1;
-            }
-        }
+        // Điều kiện 1: Sau khi bỏ 1 ô, phần đó không được rỗng (phải có > 1 ô
+        // ban đầu)
+        if (r * c <= 1)
+            return false;
 
-        long long right = 0;
-        for (int j = c - 1; j >= 1; j--) {
-            for (int i = 0; i < r; i++) {
-                int x = grid[i][j];
-                right += x;
-                rSeen[x] = 1;
-            }
-            long long leftS = Tsum - right;
-            long long d = right - leftS;
-            if (d > 0 && d <= xMax) {
-                if (r > 1 && (c - 1 - j) > 0) {
-                    if (rSeen[d])
-                        return 1;
-                } else if (grid[0][j] == d || grid[r - 1][c - 1] == d)
-                    return 1;
-            }
-        }
-        return 0;
+        // Điều kiện 2: Tính kết nối
+        if (r > 1 && c > 1)
+            return true; // Hình chữ nhật lớn luôn kết nối
+        if (r == 1)
+            return (grid[r1][c1] == x ||
+                    grid[r1][c2] == x); // Hàng đơn: bỏ 2 đầu
+        if (c == 1)
+            return (grid[r1][c1] == x ||
+                    grid[r2][c1] == x); // Cột đơn: bỏ 2 đầu
+
+        return false;
     }
 };
