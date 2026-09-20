@@ -63,4 +63,12 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0905-sort-array-by-parity](https://github.com/KimHuu2486/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3498-reverse-degree-of-a-string](https://github.com/KimHuu2486/LeetCode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3498-reverse-degree-of-a-string](https://github.com/KimHuu2486/LeetCode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 <!---LeetCode Topics End-->
