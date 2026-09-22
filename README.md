@@ -7,6 +7,7 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0905-sort-array-by-parity](https://github.com/KimHuu2486/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
+| [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/KimHuu2486/LeetCode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [3524-find-x-value-of-array-i](https://github.com/KimHuu2486/LeetCode/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/KimHuu2486/LeetCode/tree/main/4011-count-subarrays-with-even-odd-ratio-i/) | Medium |
@@ -63,10 +64,12 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0905-sort-array-by-parity](https://github.com/KimHuu2486/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
+| [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0905-sort-array-by-parity](https://github.com/KimHuu2486/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
+| [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -79,4 +82,8 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1401-circle-and-rectangle-overlapping](https://github.com/KimHuu2486/LeetCode/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
 <!---LeetCode Topics End-->
