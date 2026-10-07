@@ -88,6 +88,7 @@ These are my solutions to LeetCode problems.
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/KimHuu2486/LeetCode/tree/main/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/KimHuu2486/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
+| [0301-remove-invalid-parentheses](https://github.com/KimHuu2486/LeetCode/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [0678-valid-parenthesis-string](https://github.com/KimHuu2486/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/KimHuu2486/LeetCode/tree/main/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/KimHuu2486/LeetCode/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
@@ -140,4 +141,9 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/KimHuu2486/LeetCode/tree/main/0022-generate-parentheses/) | Medium |
+| [0301-remove-invalid-parentheses](https://github.com/KimHuu2486/LeetCode/tree/main/0301-remove-invalid-parentheses/) | Hard |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0301-remove-invalid-parentheses](https://github.com/KimHuu2486/LeetCode/tree/main/0301-remove-invalid-parentheses/) | Hard |
 <!---LeetCode Topics End-->
