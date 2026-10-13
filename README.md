@@ -16,6 +16,7 @@ These are my solutions to LeetCode problems.
 | [2778-sum-of-squares-of-special-elements](https://github.com/KimHuu2486/LeetCode/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 | [3524-find-x-value-of-array-i](https://github.com/KimHuu2486/LeetCode/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/KimHuu2486/LeetCode/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/KimHuu2486/LeetCode/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/KimHuu2486/LeetCode/tree/main/4011-count-subarrays-with-even-odd-ratio-i/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -87,6 +88,7 @@ These are my solutions to LeetCode problems.
 | [0905-sort-array-by-parity](https://github.com/KimHuu2486/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
 | [2333-minimum-sum-of-squared-difference](https://github.com/KimHuu2486/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/KimHuu2486/LeetCode/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -119,6 +121,7 @@ These are my solutions to LeetCode problems.
 | [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/KimHuu2486/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [2333-minimum-sum-of-squared-difference](https://github.com/KimHuu2486/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/KimHuu2486/LeetCode/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
