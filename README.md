@@ -47,6 +47,7 @@ These are my solutions to LeetCode problems.
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/KimHuu2486/LeetCode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [3524-find-x-value-of-array-i](https://github.com/KimHuu2486/LeetCode/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/KimHuu2486/LeetCode/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/KimHuu2486/LeetCode/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -121,6 +122,7 @@ These are my solutions to LeetCode problems.
 | [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/KimHuu2486/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [2333-minimum-sum-of-squared-difference](https://github.com/KimHuu2486/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/KimHuu2486/LeetCode/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/KimHuu2486/LeetCode/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
