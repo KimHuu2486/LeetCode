@@ -22,6 +22,7 @@ These are my solutions to LeetCode problems.
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/KimHuu2486/LeetCode/tree/main/3551-minimum-swaps-to-sort-by-digit-sum/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/KimHuu2486/LeetCode/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 | [3886-sum-of-sortable-integers](https://github.com/KimHuu2486/LeetCode/tree/main/3886-sum-of-sortable-integers/) | Hard |
+| [3942-minimum-operations-to-sort-a-permutation](https://github.com/KimHuu2486/LeetCode/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/KimHuu2486/LeetCode/tree/main/4011-count-subarrays-with-even-odd-ratio-i/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
