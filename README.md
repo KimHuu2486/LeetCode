@@ -56,6 +56,7 @@ These are my solutions to LeetCode problems.
 | [1401-circle-and-rectangle-overlapping](https://github.com/KimHuu2486/LeetCode/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/KimHuu2486/LeetCode/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/KimHuu2486/LeetCode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
+| [2409-count-days-spent-together](https://github.com/KimHuu2486/LeetCode/tree/main/2409-count-days-spent-together/) | Easy |
 | [3524-find-x-value-of-array-i](https://github.com/KimHuu2486/LeetCode/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/KimHuu2486/LeetCode/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/KimHuu2486/LeetCode/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
@@ -125,6 +126,7 @@ These are my solutions to LeetCode problems.
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/KimHuu2486/LeetCode/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/KimHuu2486/LeetCode/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/KimHuu2486/LeetCode/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
+| [2409-count-days-spent-together](https://github.com/KimHuu2486/LeetCode/tree/main/2409-count-days-spent-together/) | Easy |
 | [3498-reverse-degree-of-a-string](https://github.com/KimHuu2486/LeetCode/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/KimHuu2486/LeetCode/tree/main/3863-minimum-operations-to-sort-a-string/) | Medium |
 ## Simulation
