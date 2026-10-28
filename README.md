@@ -24,6 +24,7 @@ These are my solutions to LeetCode problems.
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/KimHuu2486/LeetCode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/KimHuu2486/LeetCode/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/KimHuu2486/LeetCode/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/KimHuu2486/LeetCode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 | [3886-sum-of-sortable-integers](https://github.com/KimHuu2486/LeetCode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/KimHuu2486/LeetCode/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/KimHuu2486/LeetCode/tree/main/4011-count-subarrays-with-even-odd-ratio-i/) | Medium |
@@ -73,6 +74,7 @@ These are my solutions to LeetCode problems.
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/KimHuu2486/LeetCode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/KimHuu2486/LeetCode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [3524-find-x-value-of-array-i](https://github.com/KimHuu2486/LeetCode/tree/main/3524-find-x-value-of-array-i/) | Medium |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/KimHuu2486/LeetCode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 ## Combinatorics
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -181,6 +183,7 @@ These are my solutions to LeetCode problems.
 | [1254-number-of-closed-islands](https://github.com/KimHuu2486/LeetCode/tree/main/1254-number-of-closed-islands/) | Medium |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/KimHuu2486/LeetCode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/KimHuu2486/LeetCode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/KimHuu2486/LeetCode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -231,6 +234,7 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/KimHuu2486/LeetCode/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/KimHuu2486/LeetCode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
