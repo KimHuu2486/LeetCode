@@ -7,6 +7,7 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/KimHuu2486/LeetCode/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/KimHuu2486/LeetCode/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0905-sort-array-by-parity](https://github.com/KimHuu2486/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/KimHuu2486/LeetCode/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -59,6 +60,7 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/KimHuu2486/LeetCode/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/KimHuu2486/LeetCode/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [1401-circle-and-rectangle-overlapping](https://github.com/KimHuu2486/LeetCode/tree/main/1401-circle-and-rectangle-overlapping/) | Medium |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/KimHuu2486/LeetCode/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/KimHuu2486/LeetCode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
@@ -112,6 +114,7 @@ These are my solutions to LeetCode problems.
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/KimHuu2486/LeetCode/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0905-sort-array-by-parity](https://github.com/KimHuu2486/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/KimHuu2486/LeetCode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
