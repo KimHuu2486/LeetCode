@@ -27,6 +27,7 @@ These are my solutions to LeetCode problems.
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/KimHuu2486/LeetCode/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
 | [3665-twisted-mirror-path-count](https://github.com/KimHuu2486/LeetCode/tree/main/3665-twisted-mirror-path-count/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/KimHuu2486/LeetCode/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/KimHuu2486/LeetCode/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/KimHuu2486/LeetCode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 | [3886-sum-of-sortable-integers](https://github.com/KimHuu2486/LeetCode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/KimHuu2486/LeetCode/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
@@ -68,6 +69,7 @@ These are my solutions to LeetCode problems.
 | [3524-find-x-value-of-array-i](https://github.com/KimHuu2486/LeetCode/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/KimHuu2486/LeetCode/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/KimHuu2486/LeetCode/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/KimHuu2486/LeetCode/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
 | [3886-sum-of-sortable-integers](https://github.com/KimHuu2486/LeetCode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
