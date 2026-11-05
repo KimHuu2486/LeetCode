@@ -11,6 +11,7 @@ These are my solutions to LeetCode problems.
 | [0905-sort-array-by-parity](https://github.com/KimHuu2486/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/KimHuu2486/LeetCode/tree/main/1254-number-of-closed-islands/) | Medium |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/KimHuu2486/LeetCode/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/KimHuu2486/LeetCode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/KimHuu2486/LeetCode/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/KimHuu2486/LeetCode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
@@ -99,6 +100,7 @@ These are my solutions to LeetCode problems.
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/KimHuu2486/LeetCode/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/KimHuu2486/LeetCode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/KimHuu2486/LeetCode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/KimHuu2486/LeetCode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
@@ -113,12 +115,14 @@ These are my solutions to LeetCode problems.
 | ------- | ------- |
 | [0905-sort-array-by-parity](https://github.com/KimHuu2486/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/KimHuu2486/LeetCode/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/KimHuu2486/LeetCode/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0905-sort-array-by-parity](https://github.com/KimHuu2486/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/KimHuu2486/LeetCode/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [2089-find-target-indices-after-sorting-array](https://github.com/KimHuu2486/LeetCode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2333-minimum-sum-of-squared-difference](https://github.com/KimHuu2486/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/KimHuu2486/LeetCode/tree/main/3551-minimum-swaps-to-sort-by-digit-sum/) | Medium |
