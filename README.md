@@ -11,6 +11,7 @@ These are my solutions to LeetCode problems.
 | [0905-sort-array-by-parity](https://github.com/KimHuu2486/LeetCode/tree/main/0905-sort-array-by-parity/) | Easy |
 | [0969-pancake-sorting](https://github.com/KimHuu2486/LeetCode/tree/main/0969-pancake-sorting/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/KimHuu2486/LeetCode/tree/main/1254-number-of-closed-islands/) | Medium |
+| [1267-count-servers-that-communicate](https://github.com/KimHuu2486/LeetCode/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/KimHuu2486/LeetCode/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/KimHuu2486/LeetCode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/KimHuu2486/LeetCode/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
@@ -200,6 +201,7 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1254-number-of-closed-islands](https://github.com/KimHuu2486/LeetCode/tree/main/1254-number-of-closed-islands/) | Medium |
+| [1267-count-servers-that-communicate](https://github.com/KimHuu2486/LeetCode/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/KimHuu2486/LeetCode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/KimHuu2486/LeetCode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 | [3665-twisted-mirror-path-count](https://github.com/KimHuu2486/LeetCode/tree/main/3665-twisted-mirror-path-count/) | Medium |
@@ -214,6 +216,7 @@ These are my solutions to LeetCode problems.
 | ------- | ------- |
 | [0301-remove-invalid-parentheses](https://github.com/KimHuu2486/LeetCode/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [1254-number-of-closed-islands](https://github.com/KimHuu2486/LeetCode/tree/main/1254-number-of-closed-islands/) | Medium |
+| [1267-count-servers-that-communicate](https://github.com/KimHuu2486/LeetCode/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/KimHuu2486/LeetCode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
@@ -234,6 +237,7 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1254-number-of-closed-islands](https://github.com/KimHuu2486/LeetCode/tree/main/1254-number-of-closed-islands/) | Medium |
+| [1267-count-servers-that-communicate](https://github.com/KimHuu2486/LeetCode/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/KimHuu2486/LeetCode/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/KimHuu2486/LeetCode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Binary Search Tree
@@ -261,6 +265,7 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1254-number-of-closed-islands](https://github.com/KimHuu2486/LeetCode/tree/main/1254-number-of-closed-islands/) | Medium |
+| [1267-count-servers-that-communicate](https://github.com/KimHuu2486/LeetCode/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/KimHuu2486/LeetCode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -270,4 +275,8 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/KimHuu2486/LeetCode/tree/main/3970-shortest-path-with-at-most-k-consecutive-identical-characters/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1267-count-servers-that-communicate](https://github.com/KimHuu2486/LeetCode/tree/main/1267-count-servers-that-communicate/) | Medium |
 <!---LeetCode Topics End-->
