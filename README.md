@@ -41,6 +41,7 @@ These are my solutions to LeetCode problems.
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/KimHuu2486/LeetCode/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/KimHuu2486/LeetCode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 | [3886-sum-of-sortable-integers](https://github.com/KimHuu2486/LeetCode/tree/main/3886-sum-of-sortable-integers/) | Hard |
+| [3934-smallest-unique-subarray](https://github.com/KimHuu2486/LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/KimHuu2486/LeetCode/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/KimHuu2486/LeetCode/tree/main/4011-count-subarrays-with-even-odd-ratio-i/) | Medium |
 ## Divide and Conquer
@@ -117,6 +118,7 @@ These are my solutions to LeetCode problems.
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/KimHuu2486/LeetCode/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [3331-find-subtree-sizes-after-changes](https://github.com/KimHuu2486/LeetCode/tree/main/3331-find-subtree-sizes-after-changes/) | Medium |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/KimHuu2486/LeetCode/tree/main/3551-minimum-swaps-to-sort-by-digit-sum/) | Medium |
+| [3934-smallest-unique-subarray](https://github.com/KimHuu2486/LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -125,6 +127,7 @@ These are my solutions to LeetCode problems.
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/KimHuu2486/LeetCode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/KimHuu2486/LeetCode/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2333-minimum-sum-of-squared-difference](https://github.com/KimHuu2486/LeetCode/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
+| [3934-smallest-unique-subarray](https://github.com/KimHuu2486/LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -314,4 +317,16 @@ These are my solutions to LeetCode problems.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1352-product-of-the-last-k-numbers](https://github.com/KimHuu2486/LeetCode/tree/main/1352-product-of-the-last-k-numbers/) | Medium |
+## Rolling Hash
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3934-smallest-unique-subarray](https://github.com/KimHuu2486/LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
+## Suffix Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3934-smallest-unique-subarray](https://github.com/KimHuu2486/LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
+## Hash Function
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3934-smallest-unique-subarray](https://github.com/KimHuu2486/LeetCode/tree/main/3934-smallest-unique-subarray/) | Hard |
 <!---LeetCode Topics End-->
